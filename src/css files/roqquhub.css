@@ -1,0 +1,22 @@
+#HUB_DIV_001{
+    margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+#HUB_DIV_002 h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#HUB_DIV_002 a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#HUB_DIV_003 p {
+    font-size: 17px;
+    max-width: 50%;
+}

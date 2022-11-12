@@ -1,0 +1,27 @@
+/* email  */
+#DIV_007{
+    margin-top: 50px;
+    background-color: #777;
+    padding: 6px;
+    max-width: 26%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#IMG_001{
+    height: 45px;
+}
+
+#EMAIL_DIV input[type='email']{
+    border: none;
+    outline: none;
+}
+
+#EMAIL_DIV input[type='email']::placeholder{
+    color: white;
+}
+
+#email {
+    background-color: #777;
+}

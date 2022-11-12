@@ -1,0 +1,43 @@
+#WALL_DIV_001{
+    background-color: white;
+    box-shadow: 0px 0px 15px #777;
+    border-radius: 17px;
+    margin-top: 100px;
+    max-width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: #2764FF */
+}
+
+#WALL_DIV_002 {
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+#WALL_DIV_003 h5{
+    color: #2764FF;
+    font-size: 14px;
+    letter-spacing: 0.4em;
+}
+
+#WALL_DIV_004 h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+#WALL_DIV_005 p{
+    font-size: 18px;
+    color: #777;
+    max-width: 88%;
+}
+
+#WALL_UL_001{
+    max-width: 85%;
+}
+
+.zeroWithdrawal{
+    position: relative;
+    left: 60px;
+}
+

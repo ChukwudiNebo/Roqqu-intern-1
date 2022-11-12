@@ -1,0 +1,27 @@
+#EDU_DIV_001{
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+
+#EDU_UL_001 a{
+    text-decoration: none;
+    margin: 20px;
+    color: #777;
+}
+
+/* #LI_ALL{ */
+    /* padding: 3px; */
+    /* padding-left: 5px; */
+    /* padding-right: 5px !important; */
+/* } */
+
+#LI_ALL a{
+    padding: 2px;
+    padding-left: 13px;
+    padding-right: 13px !important;
+    color: white !important;
+    background-color: black;
+    border-radius: 15px;
+}

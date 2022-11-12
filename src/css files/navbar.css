@@ -1,0 +1,22 @@
+#ID_001{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+#ID_002{
+    padding-left: 80px;
+}
+
+#UL_001 li{
+    padding-left: 30px;
+}
+
+#DIV_001{
+    /* margin-left: auto; */
+    margin-left: 200px;
+}
+
+#UL_001 a {
+    text-decoration: none;
+    color: black !important;
+}

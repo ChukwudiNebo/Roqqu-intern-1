@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+// import roqquLogo from '../roqqu-images/Logo-White.png'
 import roqquLogo from '../roqqu-images/Logo-White.png'
 import BtnNav from '../roqqu-images/Btn.png'
+import ngEllipse from '../roqqu-images/Ellipse 22.png'
 
+import '../css files/navbar.css'
 
 
 
