@@ -1,0 +1,33 @@
+@media screen and (min-width: 100px){
+    #DA_DIV_001{
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+    .img-fluidi{
+        width: 90%;
+    }
+    .img-fluid-one{
+        width: 90%;
+        position: relative;
+        top: 4px;
+    }
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+    #DA_DIV_002 h5{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    .img-fluidi{
+        width: 54.86%;
+    }
+    .img-fluid-one{
+        width: 55.001%;
+        position: relative;
+        top: 2px;
+    }
+}

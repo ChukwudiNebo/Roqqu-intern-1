@@ -12,7 +12,7 @@ return (
         <div id='EDU_DIV_001'>
                 <div>
                     <div>
-                        <ul className='d-flex list-unstyled' id='EDU_UL_001'>
+                        <ul className='d-flex flex-wrap flex-lg-nowrap list-unstyled' id='EDU_UL_001'>
                             <li id='LI_ALL'>
                                 <Link to='/'>
                                     All                                

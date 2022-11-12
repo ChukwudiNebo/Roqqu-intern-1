@@ -1,39 +1,125 @@
-#BUS_DIV_001{
-    background-color: white;
-    box-shadow: 0px 0px 15px #777;
-    border-radius: 17px;
-    margin-top: 100px;
-    max-width: 82%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#BUS_DIV_002 {
-    padding-top: 40px;
-    padding-left: 90px;
-}
-
-#BUS_DIV_003 h4{
+.fa-check{
     color: #2764FF;
-    font-size: 14px;
-    letter-spacing: 0.4em;
-}
-
-#BUS_DIV_004 h3{
-    font-weight: bold;
-    font-size: 35px;
-}
-
-#BUS_DIV_005 p{
-    font-size: 18px;
-    color: #777;
-    max-width: 88%;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgb(223, 240, 255);
 }
 
 
-#BUS_UL_001{
-    max-width: 72%;
+@media screen and (min-width: 100px){
+    #BUS_DIV_001{
+        background-color: white;
+        box-shadow: 0px 0px 15px #777;
+        border-radius: 17px;
+        margin-top: 100px;
+        width: 84%;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #BUS_DIV_002 {
+        padding-top: 40px;
+        /* padding-left: 90px; */
+    }
+    
+    #BUS_DIV_003 h4{
+        color: #2764FF;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+    }
+    
+    #BUS_DIV_004 h3{
+        font-weight: bold;
+        font-size: 25px;
+        width: 84%;
+    }
+    
+    #BUS_DIV_005 p{
+        font-size: 18px;
+        color: #777;
+        max-width: 90%;
+    }
+    
+    
+    #BUS_UL_001{
+        padding-top: 25px;
+    }
+
+    #BUS_UL_001 p{
+        padding-left: 15px;
+        padding-top: 1px;
+        color: #777;
+        font-size: 15px;
+    }
+
+    #BUS_DIV_006 {
+    margin-bottom: 60px;
+    }
+
+    #BUS_DIV_006 h5{
+        margin-left: 18px;
+        color: #2764FF;
+        font-size: 16px;
+    }
+
+    #BUS_DIV_006 i{
+        color: #2764FF;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .img-fluid_BUS{
+        width: 318px;
+        height: 240px;
+    }
+
 }
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+
+    #BUS_DIV_001{
+        background-color: white;
+        box-shadow: 0px 0px 15px #777;
+        border-radius: 17px;
+        margin-top: 100px;
+        max-width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #BUS_DIV_002 {
+        padding-top: 40px;
+        padding-left: 90px;
+    }
+    
+    #BUS_DIV_003 h4{
+        color: #2764FF;
+        font-size: 14px;
+        letter-spacing: 0.4em;
+    }
+    
+    #BUS_DIV_004 h3{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    
+    #BUS_DIV_005 p{
+        font-size: 18px;
+        color: #777;
+        max-width: 88%;
+    }
+    
+    
+    #BUS_UL_001{
+        max-width: 72%;
+    }
+}
+
+
 
 
 

@@ -1,4 +1,91 @@
-#WALL_DIV_001{
+.fa-check{
+    color: #2764FF;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgb(223, 240, 255);
+}
+
+
+@media screen and (min-width: 100px){
+    #WALL_DIV_001{
+    background-color: white;
+    box-shadow: 0px 0px 15px #777;
+    border-radius: 17px;
+    margin-top: 100px;
+    width: 84%;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: #2764FF */
+}
+
+#WALL_DIV_002 {
+    padding-top: 40px;
+    /* padding-left: 90px; */
+}
+
+#WALL_DIV_003 h5{
+    color: #2764FF;
+    font-size: 11px;
+    width: 84%;
+    padding-left: 15px;
+}
+
+#WALL_DIV_004 h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#WALL_UL_001{
+    padding-top: 25px;
+}
+
+#WALL_DIV_005 p{
+    font-size: 17px;
+    color: #777;
+    max-width: 90%;
+}
+
+#WALL_UL_001 p{
+    padding-left: 15px;
+    padding-top: 1px;
+    color: #777;
+    font-size: 15px;
+}
+
+#WALL_DIV_006 {
+    margin-bottom: 60px;
+}
+
+#WALL_DIV_006 h5{
+    margin-left: 18px;
+    color: #2764FF;
+    font-size: 16px;
+}
+
+#WALL_DIV_006 i{
+    color: #2764FF;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.img-fluid_WAL{
+    width: 318px;
+    height: 240px;
+}
+
+
+.zeroWithdrawal{
+    /* position: relative;
+    left: 60px; */
+}
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+    #WALL_DIV_001{
     background-color: white;
     box-shadow: 0px 0px 15px #777;
     border-radius: 17px;
@@ -33,11 +120,38 @@
 }
 
 #WALL_UL_001{
-    max-width: 85%;
+    padding-top: 25px;
+    max-width: 100%;
 }
 
 .zeroWithdrawal{
     position: relative;
-    left: 60px;
+    left: 55px;
 }
+
+#WALL_DIV_006 {
+    margin-bottom: 60px;
+}
+
+#WALL_DIV_006 h5{
+    margin-left: 29px;
+    color: #2764FF;
+    font-size: 16px;
+}
+
+#WALL_DIV_006 i{
+    color: #2764FF;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.img-fluid_WAL{
+    width: 520px;
+    height: 392px;
+}
+
+}
+
+
+
 

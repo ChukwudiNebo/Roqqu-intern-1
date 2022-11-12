@@ -17,6 +17,8 @@ import WeOffer from '../Components/WeOffer'
 import Footer from './Footer'
 
 
+import '../css files/roqqu.css'
+
 
 
 const Roqqu = () => {

@@ -1,22 +1,53 @@
-#HUB_DIV_001{
-    margin-top: 80px;
-    padding-left: 100px;
-    padding-right: 70px;
+@media screen and (min-width: 100px){
+    #HUB_DIV_001{
+        margin-top: 80px;
+        /* padding-left: 100px; */
+        padding-right: 150px;
+    }
+    
+    #HUB_DIV_002 h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #HUB_DIV_002 a {
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    
+    #HUB_DIV_003 p {
+        font-size: 15px;
+        /* max-width: 50%; */
+    }
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+
+    #HUB_DIV_001{
+        margin-top: 80px;
+        padding-left: 100px;
+        padding-right: 70px;
+    }
+    
+    #HUB_DIV_002 h3 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    #HUB_DIV_002 a {
+        font-size: 17px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    
+    #HUB_DIV_003 p {
+        font-size: 17px;
+        max-width: 50%;
+    }
 }
 
-#HUB_DIV_002 h3 {
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#HUB_DIV_002 a {
-    font-size: 17px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-#HUB_DIV_003 p {
-    font-size: 17px;
-    max-width: 50%;
-}

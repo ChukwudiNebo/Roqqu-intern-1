@@ -10,7 +10,7 @@ const RoqquSavings = () => {
   return (
             <>
         <div id='SAV_DIV_001'>
-                <div className='d-flex align-items-center' id='SAV_DIV_002'>
+                <div className='d-flex flex-wrap flex-lg-nowrap align-items-center' id='SAV_DIV_002'>
                     <div>
                         <div id='SAV_DIV_003'>
                             <h4>
@@ -40,7 +40,7 @@ const RoqquSavings = () => {
                                         Stay in control
                                     </p>
                                 </li> */}
-                                <div className='d-flex justify-content-between' id='SAV_UL_001'>                                     
+                                <div className='d-lg-flex justify-content-lg-between' id='SAV_UL_001'>                                     
                                     <li>
                                         <div>
                                             <img src="" alt="" />
@@ -59,7 +59,7 @@ const RoqquSavings = () => {
                                         </p>
                                     </li>
                                 </div>
-                                <div className='d-flex justify-content-between'> 
+                                <div className='d-lg-flex justify-content-lg-between'> 
                                     <li>
                                         <div>
                                             <img src="" alt="" />
@@ -90,7 +90,7 @@ const RoqquSavings = () => {
                             </ul>
                         </div>
 
-                        <div className='d-flex justify-content-between align-items-center'>
+                        <div className='d-flex justify-content-lg-between align-items-center'>
                             <div>
                                 <img src={SavingsGetstarted} alt="*" />
                             </div>
@@ -106,7 +106,7 @@ const RoqquSavings = () => {
                     </div>
 
                     <div>
-                        <img src={JetFour} alt="*" />
+                        <img src={JetFour} alt="*" className='img-fluid'/>
                     </div>
                 </div>
             </div>

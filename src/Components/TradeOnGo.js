@@ -6,7 +6,7 @@ const TradeOnGo = () => {
 return (
     <>
         <div id='TRA_DIV_001'>
-                <div className='d-flex'>
+                <div className='d-flex flex-wrap flex-lg-nowrap'>
                     <div>
                         <div id='TRA_DIV_002'>
                             <h3>
@@ -18,7 +18,7 @@ return (
                                 Don't worry, we've got an app for every device
                             </p>
                         </div>
-                        <div className='d-flex'>
+                        <div className='d-lg-flex'>
                             <div>
                                 <div>
                                     <img src="" alt="" />
@@ -48,7 +48,7 @@ return (
                         </div>
                     </div>
                     <div>
-                        <img src={LightJet} alt="*" />
+                        <img src={LightJet} alt="*" className='img-fluid' />
                     </div>
                 </div>
             </div>

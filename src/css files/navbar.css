@@ -1,12 +1,82 @@
+@media screen and (min-width: 100px){
+#ID_001{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.logo{
+    padding-top: 12px;
+}
+
+#ID_002{
+    padding-left: 100px;
+    position: relative;
+    top: 9px;
+}
+
+#DIV_001 i{
+    margin-left: 7px;
+}
+
+.hamburger{
+    margin-left: 20px;
+    padding: 3px 12px;
+    background-color: #BCCBFA;
+    border-radius: 10px;
+}
+
+.bar-one{
+    margin:5px;
+    padding: 1px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #2764FF;
+    /* color: black; */
+}
+
+.bar-two{
+    margin:5px;
+    padding: 1px;
+    width: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #2764FF;
+    /* color: black; */
+}
+
+.bar-three{
+    margin:5px;
+    padding: 1px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #2764FF;
+    /* color: black; */
+}
+
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){
+    #ID_001{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+}
+@media screen and (min-width: 1200px){
 #ID_001{
     padding-left: 80px;
     padding-top: 30px;
 }
 
-#ID_002{
-    padding-left: 80px;
+.logo{
+    padding-top: 7px;
 }
 
+#ID_002{
+    padding-left: 80px;
+    position: none;
+    top: 0px;
+}
 #UL_001 li{
     padding-left: 30px;
 }
@@ -19,4 +89,15 @@
 #UL_001 a {
     text-decoration: none;
     color: black !important;
+    font-size: 14px;
+
 }
+
+.ngEllipse{
+    margin-left: 30px;
+}
+}
+
+
+
+
