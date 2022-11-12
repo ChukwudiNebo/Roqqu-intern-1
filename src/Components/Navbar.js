@@ -71,10 +71,11 @@ return (
                                             </div>
                                         {/* </div> */}
                                     {/* </div> */}
-                                    <div>
+                                    <div className='d-flex'>
                                         <div>
                                             <img src={ngEllipse} alt="" />
                                         </div>
+                                        <i className="fa fa-angle-down"></i>
                                     </div>
                                 </div>
                             </ul>

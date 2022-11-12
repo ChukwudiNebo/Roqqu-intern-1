@@ -1,5 +1,6 @@
 #BOTT_DIV_001{
     margin-left: 100px;
+    position: relative;
 }
 
 #BOTT_DIV_003 p{
@@ -8,6 +9,49 @@
 }
 
 #BOTT_DIV_004{
-    /* margin-right: 79px; */
-    /* width: 50%; */
+    margin-right: 79px;
+    /* width: 80%; */
+}
+
+#BOTT_DIV_0070 div{
+    padding-left: 60px;
+}
+
+#BOTT_DIV_008, #BOTT_DIV_0010, #BOTT_DIV_0012, #BOTT_DIV_0014, li{
+    line-height: 2.5em;
+}
+
+#BOTT_DIV_005 input[type='email']{
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+}
+
+#BOTT_DIV_005 input[type='email']::placeholder{
+    color: #777;
+}
+
+#BOTT_DIV_013{
+    position:absolute;
+    top: 300px;
+    left: 46%;
+}
+
+#BOTT_DIV_015{
+    margin-top: 130px;
+    margin-right: 100px;
+}
+
+#BOTT_DIV_016{
+    max-width: 70%;
+    font-size: 15px;
+}
+
+#BOTT_DIV_017{
+    max-width: 50%;
+    font-size: 15px;
+
 }
