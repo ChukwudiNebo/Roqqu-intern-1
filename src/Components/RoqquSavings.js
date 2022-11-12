@@ -40,47 +40,47 @@ const RoqquSavings = () => {
                                         Stay in control
                                     </p>
                                 </li> */}
-                                <div className='d-lg-flex justify-content-lg-between' id='SAV_UL_001'>                                     
-                                    <li>
+                                <div className='d-flex flex-wrap flex-lg-wrap justify-content-between align-items-center list-unstyled' id='SAV_UL_001'>                                     
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Zero bank charges
                                         </p>
                                         
                                     </li>
-                                    <li>
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             No market volatility                                          
                                         </p>
                                     </li>
                                 </div>
-                                <div className='d-lg-flex justify-content-lg-between'> 
-                                    <li>
+                                <div className='d-lg-flex justify-content-lg-start' id='SAV_EAS'> 
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Safe and secure funds
                                         </p>
                                     </li>
-                                    <li>
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>                                        
                                             Solid Security
                                         </p>
                                     </li>
                                 </div>
-                                <div className=''> 
-                                    <li>
+                                <div id='SAV_SAF_001'> 
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             +15% interest p.a 
@@ -90,28 +90,34 @@ const RoqquSavings = () => {
                             </ul>
                         </div>
 
-                        <div className='d-flex justify-content-lg-between align-items-center'>
+                        <div className='d-flex justify-content-lg-start align-items-center'  id='SAV_DIV_006'>
+                            {/* <div className='d-lg-block d-xl-none d-xl-none d-inline-block'>
+                                <img src={BusinessGetstartedMobile } alt="" />
+                            </div>
+                            <div className='d-lg-none d-xl-inline-block d-xl-flex d-none'>
+                                <img src={BusinessGetstarted} alt="*" />
+                            </div> */}
                             <div>
                                 <img src={SavingsGetstarted} alt="*" />
                             </div>
-                            <div>
+                            <div className='d-flex'>
                                 <h5>
                                     Learn more               
                                 </h5>
                                 <div>
-                                    <i></i>
+                                    <i className='fa fa-angle-double-right'></i>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <img src={JetFour} alt="*" className='img-fluid'/>
+                        <img src={JetFour} alt="*" className='img-fluid_SAV'/>
                     </div>
                 </div>
             </div>
     </>
-  )
+)
 }
 
 export default RoqquSavings

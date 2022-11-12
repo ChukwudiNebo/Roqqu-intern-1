@@ -47,7 +47,27 @@
         padding-top: 25px;
     }
 
-    #BUS_UL_001 p{
+    #BUS_UL_001  p{
+        padding-left: 15px;
+        padding-top: 1px;
+        color: #777;
+        font-size: 15px;
+    }
+
+    #BUS_EAS p{
+        padding-left: 15px;
+        padding-top: 1px;
+        color: #777;
+        font-size: 15px;
+        /* padding-right: 210px; */
+    }
+
+    #BUS_EAS li:nth-last-child(1){
+        position: relative;
+        left: 0px;
+    }
+
+    #BUS_SAF_001 p{
         padding-left: 15px;
         padding-top: 1px;
         color: #777;
@@ -113,10 +133,19 @@
         max-width: 88%;
     }
     
+    #BUS_EAS li:nth-last-child(1){
+        position: relative;
+        left: 38px;
+    }
     
     #BUS_UL_001{
         max-width: 72%;
     }
+
+    .img-fluid_BUS{
+    width: 520px;
+    height: 392px;
+}
 }
 
 

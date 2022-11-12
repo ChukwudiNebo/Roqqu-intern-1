@@ -13,16 +13,16 @@ return (
                                 Roqqu Hub
                             </h3>                           
                         </div>
-                        <div>
+                        <div className='d-flex align-items-center' id='HUB_DIV_004'>
                             <Link to='/'>
                                 Go to Hub
                             </Link>
-                            <i></i>
+                            <i className='fa fa-angle-double-right'></i>
                         </div>
                     </div>
                     <div id='HUB_DIV_003'>
                         <p>
-                            We present to you the no. 1 stop for everything crypto and blockchain. You re 
+                            We present to you the no. 1 stop for everything crypto and blockchain. You're 
                             guaranteed to get the best out of the entire blockchain space with over 100+ 
                             learning materials on Roqqu hub.
                         </p>

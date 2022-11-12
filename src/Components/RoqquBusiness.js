@@ -59,7 +59,7 @@ return (
                                         </p>
                                     </li>
                                 </div>
-                                <div className='d-lg-flex justify-content-lg-between' id=''> 
+                                <div className='d-lg-flex' id='BUS_EAS'> 
                                     <li className='d-flex'>
                                         <div>
                                             <i className="fa fa-check"></i>
@@ -77,7 +77,7 @@ return (
                                         </p>
                                     </li>
                                 </div>
-                                <div className='d-flex justify-content-between'> 
+                                <div className='' id='BUS_SAF_001'> 
                                     <li className='d-flex'>
                                         <div>
                                             <i className="fa fa-check"></i>
@@ -90,14 +90,14 @@ return (
                             </ul>
                         </div>
 
-                        <div className='d-flex justify-content-lg-between align-items-center' id='BUS_DIV_006'>
+                        <div className='d-flex align-items-center' id='BUS_DIV_006'>
                             <div className='d-lg-block d-xl-none d-xl-none d-inline-block'>
                                 <img src={BusinessGetstartedMobile } alt="" />
                             </div>
                             <div className='d-lg-none d-xl-inline-block d-xl-flex d-none'>
                                 <img src={BusinessGetstarted} alt="*" />
                             </div>
-                            <div>
+                            <div className='d-flex justify-item-center'>
                                 <h5>
                                     Learn more               
                                 </h5>

@@ -32,53 +32,53 @@ const RoqquDevelopers = () => {
                             <ul className='list-unstyled'>
                                 {/* <li>
                                     <div>
-                                        <img src="" alt="" />
+                                        <i className="fa fa-check"></i>
                                     </div>
                                     <p>
                                         Stay in control
                                     </p>
                                 </li> */}
-                                <div className='d-lg-flex justify-content=lg-between' id='DEV_UL_001'>                                     
-                                    <li>
+                                <div className='d-flex flex-wrap flex-lg-wrap justify-content-between align-items-center list-unstyled' id='DEV_UL_001'>                                     
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Simple Integration
                                         </p>
                                         
                                     </li>
-                                    <li>
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Military Grade Security                                           
                                         </p>
                                     </li>
                                 </div>
-                                <div className='d-lg-flex justify-content-lg-between'> 
-                                    <li>
+                                <div className='d-lg-flex justify-content-lg-between' id='DEV_EAS'> 
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Intelligent Fraud Detection
                                         </p>
                                     </li>
-                                    <li>
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>                                        
                                             Simple Documentation
                                         </p>
                                     </li>
                                 </div>
-                                <div className=''> 
-                                    <li>
+                                <div className='' id='DEV_SAF_001'> 
+                                    <li className='d-flex'>
                                         <div>
-                                            <img src="" alt="" />
+                                            <i className="fa fa-check"></i>
                                         </div>
                                         <p>
                                             Dev Support 
@@ -88,23 +88,29 @@ const RoqquDevelopers = () => {
                             </ul>
                         </div>
 
-                        <div className='d-flex justify-content-lg-between align-items-center'>
+                        <div className='d-flex justify-content-start align-items-center' id='BUS_DIV_006'>
+                            {/* <div className='d-lg-block d-xl-none d-xl-none d-inline-block'>
+                                <img src={BusinessGetstartedMobile } alt="" />
+                            </div>
+                            <div className='d-lg-none d-xl-inline-block d-xl-flex d-none'>
+                                <img src={BusinessGetstarted} alt="*" />
+                            </div> */}
                             <div>
                                 <img src={DeveloperGetstarted} alt="*" />
                             </div>
-                            <div>
+                            <div className='d-flex'>
                                 <h5>
                                     Learn more               
                                 </h5>
                                 <div>
-                                    <i></i>
+                                    <i className='fa fa-angle-double-right'></i>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <img src={JetThree} alt="*" className='img-fluid'/>
+                        <img src={JetThree} alt="*" className='img-fluid_DEV'/>
                     </div>
                 </div>
             </div>
