@@ -1,14 +1,19 @@
 @media screen and (min-width: 100px){
     #DL_DIV{
-        margin-top: 130px;
-        padding-right: 50px;
+        padding-top: 170px;
+        /* padding-right: 0px; */
         /* width: 30%; */
     }
     #DL_DIV_001{
-        padding-left: 30px;
+        padding-left: 20px;
+        padding-right: 15px;
     }
     #DL_DIV_001 img{
         background-color: white;
+        padding: 12px 27px;
+        margin: 12px;
+        border-radius: 7px;
+        width: 160px;
     }
 }
 @media screen and (min-width: 576px){}
@@ -16,12 +21,16 @@
 @media screen and (min-width: 992px){}
 @media screen and (min-width: 1200px){
     #DL_DIV{
+        padding-top: 80px;
         width: 30%;
     }
     #DL_DIV_001{
-        padding-left: 108px;
+        padding-left: 95px;
     }
     #DL_DIV_001 img{
         background-color: white;
+        padding: 12px 25px;
+        margin: 12px;
+        border-radius: 10px;
     }
 }

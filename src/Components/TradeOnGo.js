@@ -1,11 +1,11 @@
 import React from 'react'
-import LightJet from '../roqqu-images/Lighting Jet.png'
+import LightJet from '../roqqu-images/Vector (7).png'
 import path1 from '../roqqu-images/Path.png'
 import path2 from '../roqqu-images/Path (1).png'
 
 
 
-// import '../css files/tradeOnGo.css'
+import '../css files/tradeOnGo.css'
 
 const TradeOnGo = () => {
 return (
