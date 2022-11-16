@@ -1,14 +1,20 @@
 import React from 'react'
+import ApplePlay from '../roqqu-images/Vector (8).png'
+import GooglePlay from '../roqqu-images/Vector (9).png'
+import '../css files/downloadLogo.css'
+
 
 const DownloadLogo = () => {
 return (
     <>
-        <div>
-            <div>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <img src="" alt="" />
+        <div id='DL_DIV'>
+            <div className='d-flex justify-content-between' id='DL_DIV_001'>
+                <div>
+                    <img src={ApplePlay} alt="" />
+                </div>
+                <div>
+                    <img src={GooglePlay} alt="" />
+                </div>
             </div>
         </div>
     </>

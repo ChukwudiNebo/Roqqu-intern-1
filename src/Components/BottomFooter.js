@@ -35,18 +35,18 @@ return (
                                     <i></i>
                                 </div>
                                 <div id='BOTT_DIV_006'>
-                                    <ul >
+                                    <ul className='d-flex list-unstyled'>
                                         <li>
-                                            <i></i>
+                                            <i class="fab fa-facebook"></i>
                                         </li>
                                         <li>
-                                            <i></i>
+                                            <i class="fab fa-twitter"></i>
                                         </li>
                                         <li>
-                                            <i></i>
+                                            <i class="fab fa-linkedin"></i>
                                         </li>
                                         <li>
-                                            <i></i>
+                                            <i class="fab fa-instagram"></i>
                                         </li>
                                     </ul>
                                 </div>
@@ -112,7 +112,7 @@ return (
                         <hr />
 
                         <div>
-                            <div  className='d-flex pt-3 justify-content-between'>
+                            <div  className='d-flex flex-wrap justify-content-between'>
                                 <div id='BOTT_DIV_016'>
                                     <p>© 2022 Roqqu Technologies Ltd. All rights reserved.</p>
                                 </div>

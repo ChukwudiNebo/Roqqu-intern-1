@@ -1,6 +1,11 @@
 import React from 'react'
 import LightJet from '../roqqu-images/Lighting Jet.png'
-import '../css files/tradeOnGo.css'
+import path1 from '../roqqu-images/Path.png'
+import path2 from '../roqqu-images/Path (1).png'
+
+
+
+// import '../css files/tradeOnGo.css'
 
 const TradeOnGo = () => {
 return (
@@ -18,9 +23,10 @@ return (
                                 Don't worry, we've got an app for every device
                             </p>
                         </div>
-                        <div className='d-lg-flex'>
+                        <div className='d-flex'>
                             <div>
                                 <div>
+                                    <img src="" alt="" />
                                     <img src="" alt="" />
                                 </div>
                                 <div id='TRA_DIV_004'>
@@ -32,16 +38,23 @@ return (
                                     </p>
                                 </div>
                             </div>
-                            <div>
-                                <div>
-                                    <img src="" alt="" />
+                            <div id='TRA_DIV_0062'>
+                                <div id='TRA_DIV_006'>
+                                    <div id="TRA_DIV_0061">
+                                        <div>
+                                            <img src={path1} alt="" />
+                                        </div>
+                                        <div>
+                                            <img src={path2} alt="" />                                  
+                                        </div>                                                                         
+                                    </div>
                                 </div>
                                 <div id='TRA_DIV_005'>
                                     <h4>
                                         Always in Sync
                                     </h4>
                                     <p>
-                                        Don t worry about the data, always be in sync
+                                        Don't worry about the data, always be in sync
                                     </p>
                                 </div>
                             </div>

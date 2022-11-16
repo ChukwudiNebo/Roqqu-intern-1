@@ -1,21 +1,75 @@
+
+#TRA_DIV_006{
+    padding-left: 12px;
+    /* padding-top: 8px; */
+    width: 17%;
+    /* background-color: #EBEFF9; */
+    border-radius: 10px;
+}
+
 @media screen and (min-width: 100px){
     #TRA_DIV_001{
         margin-top: 100px;
-        /* padding-left: 100px; */
+        padding-left: 38px;
     }
     
     #TRA_DIV_002 h3{
         font-weight: bold;
-        font-size: 30px;
-        /* max-width: 60%; */
+        font-size: 35px;
+        max-width: 80%;
+        line-height: 1.3em;
     }
     
-    #TRA_DIV_004{
+    #TRA_DIV_003{
+        margin-top: 15px;
+        width: 90%;
+        color: #777;
+        font-size: 17px;
+    }
+
+    #TRA_DIV_0062{
+        padding-top: 18px;
+    }
+
+    #TRA_DIV_0061{
+        position: relative;
+        top: 4px;
+    }
+
+    /* #TRA_DIV_006 div:nth-child(2){
+        position: relative;
+        top: -11px;
+    } */
+
+    #TRA_DIV_004 h4{
+        font-weight: bold;
+        font-size: 19px;
+        letter-spacing: -0.04em;
         /* width: 60%; */
+    }
+
+    #TRA_DIV_004 p{
+        font-size: 14px;
+        letter-spacing: -0.04em;
+        width: 80%;
     }
     
     #TRA_DIV_005{
+        margin-top: 13px;
         /* width: 60%; */
+    }
+
+    #TRA_DIV_005 h4{
+        font-weight: bold;
+        font-size: 19px;
+        letter-spacing: -0.04em;
+        /* width: 60%; */
+    }
+
+    #TRA_DIV_005 p{
+        font-size: 14px;
+        letter-spacing: -0.04em;
+        width: 80%;
     }
 }
 @media screen and (min-width: 576px){}
@@ -34,12 +88,34 @@
         max-width: 60%;
     }
     
-    #TRA_DIV_004{
-        width: 60%;
+    #TRA_DIV_004 h4{
+        font-weight: bold;
+        font-size: 23px;
+        letter-spacing: -0.04em;
+        /* width: 60%; */
+    }
+
+    #TRA_DIV_004 p{
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        width: 55%;
     }
     
     #TRA_DIV_005{
-        width: 60%;
+        /* width: 60%; */
+    }
+
+    #TRA_DIV_005 h4{
+        font-weight: bold;
+        font-size: 23px;
+        letter-spacing: -0.04em;
+        /* width: 60%; */
+    }
+
+    #TRA_DIV_005 p{
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        width: 50%;
     }
 
 }

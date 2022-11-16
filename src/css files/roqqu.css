@@ -2,3 +2,10 @@
     background-image: url('../roqqu-images/container.png.jpg');
     background-repeat: no-repeat;
 }
+
+.footer {
+    background-image: url('../roqqu-images/Rectangle.png');
+    background-size: 50% 50%;
+    background-repeat: repeat;
+    background-position: center center;
+}

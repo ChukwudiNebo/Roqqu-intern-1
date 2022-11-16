@@ -12,30 +12,40 @@ return (
         <div id='EDU_DIV_001'>
                 <div>
                     <div>
-                        <ul className='d-flex flex-wrap flex-lg-nowrap list-unstyled' id='EDU_UL_001'>
+                        <ul className='d-flex flex-nowrap flex-lg-nowrap list-unstyled' id='EDU_UL_001'>
                             <li id='LI_ALL'>
                                 <Link to='/'>
                                     All                                
                                 </Link>
                             </li>
-                            <li>
+                            <li className='d-none d-lg-inline-block'>
                                 <Link to='/'>
-                                    Trading <sup>(17)</sup>                               
+                                    Trading <sup className='d-none d-lg-inline-block'>(17)</sup>                               
+                                </Link>
+                            </li>
+                            <li className='d-none d-lg-inline-block'>
+                                <Link to='/'>
+                                    Cryptocurrency <sup className='d-none d-lg-inline-block'>(17)</sup>                              
+                                </Link>
+                            </li>
+                            <li className='d-inline d-lg-none'>
+                                <Link to='/'>
+                                    Bitcoin                             
                                 </Link>
                             </li>
                             <li>
                                 <Link to='/'>
-                                    Cryptocurrency <sup>(17)</sup>                              
+                                    Blockchain <sup className='d-none d-lg-inline-block'>(17)</sup>                              
                                 </Link>
                             </li>
-                            <li>
+                            <li className='d-block d-lg-none'>
                                 <Link to='/'>
-                                    Blockchain <sup>(17)</sup>                              
+                                    Tutorial                              
                                 </Link>
                             </li>
-                            <li>
+                            <li className='d-none d-lg-inline-block'>
                                 <Link to='/'>
-                                    Defii <sup>(17)</sup>
+                                    Defii <sup className='d-none d-lg-inline-block'>(17)</sup>
                                 </Link>
                             </li>
                         </ul>

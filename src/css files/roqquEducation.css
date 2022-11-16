@@ -1,15 +1,25 @@
 @media screen and (min-width: 100px){
     #EDU_DIV_001{
-        margin-top: 80px;
-        /* padding-left: 80px; */
-        padding-right: 70px;
+        margin-top: 35px;
+        padding-left: 26px;
+        /* margin-right: 130px; */
+        /* padding-right: 130px; */
     }
-    
+
+    #EDU_UL_001 {
+        /* max-width: 80px; */
+        margin-right: 60px;
+    }
     
     #EDU_UL_001 a{
         text-decoration: none;
-        margin: 20px;
+        margin: 14px;
         color: #777;
+    }
+
+    #EDU_UL_001 li {
+        /* margin: 10px; */
+        /* width: 50%; */
     }
     
     /* #LI_ALL{ */
