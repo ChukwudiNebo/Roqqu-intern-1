@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../roqqu-images/Logo-White.png'
+import Logo from '../roqqu-images/Logo-White (1).png'
 import '../css files/bottomfooter.css'
 
 const BottomFooter = () => {
@@ -30,12 +30,12 @@ return (
                     <div>
                         <div className='d-flex flex-wrap' id='BOTT_DIV_004'>
                             <div>
-                                <div id='BOTT_DIV_005'>
+                                <div className='d-flex align-items-center justify-content-between' id='BOTT_DIV_005'>
                                     <input type="email" name="" id="" placeholder='Email Address' />
-                                    <i></i>
+                                    <i className="fa fa-angle-right"></i>
                                 </div>
-                                <div id='BOTT_DIV_006'>
-                                    <ul className='d-flex list-unstyled'>
+                                <div id='BOTT_DIV_0060'>
+                                    <ul className='d-flex list-unstyled justify-content-between' id='BOTT_DIV_006'>
                                         <li>
                                             <i class="fab fa-facebook"></i>
                                         </li>

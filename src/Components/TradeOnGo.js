@@ -1,7 +1,8 @@
 import React from 'react'
-import LightJet from '../roqqu-images/Vector (7).png'
+import bottomImage from '../roqqu-images/Icon.png'
 import path1 from '../roqqu-images/Path.png'
 import path2 from '../roqqu-images/Path (1).png'
+import LightJet from '../roqqu-images/Image.png'
 
 
 
@@ -26,8 +27,7 @@ return (
                         <div className='d-flex'>
                             <div>
                                 <div>
-                                    <img src="" alt="" />
-                                    <img src="" alt="" />
+                                    <img src={bottomImage} alt="" />
                                 </div>
                                 <div id='TRA_DIV_004'>
                                     <h4>

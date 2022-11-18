@@ -11,13 +11,21 @@
         margin-right: auto;
     }
 
-    /* #BOTT_DIV_002{
+    #BOTT_DIV_002 img{
+        width: 200px;
+    }
 
-    } */
+    #BOTT_DIV_0070 h3{
+        color: white;
+        font-size: 17px;
+        line-height: 24px
+    }
     
     #BOTT_DIV_003 p{
         padding-top: 20px;
         max-width: 70%;
+        color: #A7B1BC;
+        font-size: 17px;
     }
     
     #BOTT_DIV_004{
@@ -25,25 +33,45 @@
         /* width: 80%; */
     }
     
+    #BOTT_DIV_0070{
+        margin-top: 40px;
+    }
+
     #BOTT_DIV_0070 div{
-        padding-left: 0px;
+        padding-left: 2px;
     }
     
     #BOTT_DIV_008, #BOTT_DIV_0010, #BOTT_DIV_0012, #BOTT_DIV_0014, li{
         line-height: 2.5em;
+        font-size: 16px;
     }
     
-    #BOTT_DIV_005 input[type='email']{
+    #BOTT_DIV_005{
+        margin-top: 20px;
         padding: 15px;
-        border-radius: 10px;
-        /* width: 350px; */
-        background-color: aliceblue;
+        border-radius: 8px;
+        width: 300px;
+        background-color: #36394F;
         border: none;
         outline: none;
     }
+
+    #BOTT_DIV_005 input[type='email']{
+        border: none;
+        outline: none;
+        background-color: unset;
+    }
+
+    #BOTT_DIV_005 i{
+        padding: 3px 7px;
+        border-radius: 50%;
+        background-color: #2764FF;
+        color: white;
+        font-size: 13px;
+    }
     
     #BOTT_DIV_005 input[type='email']::placeholder{
-        color: #777;
+        color: #A7B1BC;
     }
     
     /* #BOTT_DIV_013{
@@ -60,13 +88,28 @@
     
     #BOTT_DIV_016{
         max-width: 100%;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     #BOTT_DIV_017{
         max-width: 100%;
-        font-size: 15px;
+        font-size: 14px;
     
+    }
+
+    #BOTT_DIV_0060{
+        max-width: 200px;
+    }
+
+    #BOTT_DIV_006 li{
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 0px 12px;
+        /* width: max-content; */
+        /* margin-left: 10px; */
+        color: white;
+        background-color: #36394F;
+        border-radius: 50%;
     }
 }
 @media screen and (min-width: 576px){}
@@ -80,43 +123,76 @@
         position: relative;
     }
 
+    #BOTT_DIV_0070 h3{
+        color: white;
+        font-size: 17px;
+        line-height: 24px
+    }
 
     
     #BOTT_DIV_003 p{
         padding-top: 20px;
         max-width: 20%;
+        font-size: 15px;
     }
     
     #BOTT_DIV_004{
         margin-right: 79px;
         /* width: 80%; */
     }
-    
+    #BOTT_DIV_0070{
+        margin-top: 0px;
+    }
     #BOTT_DIV_0070 div{
         padding-left: 60px;
     }
     
     #BOTT_DIV_008, #BOTT_DIV_0010, #BOTT_DIV_0012, #BOTT_DIV_0014, li{
         line-height: 2.5em;
+        font-size: 16px;
     }
     
-    #BOTT_DIV_005 input[type='email']{
+    /* #BOTT_DIV_005 input[type='email']{
         padding: 15px;
         border-radius: 10px;
         width: 350px;
         background-color: aliceblue;
         border: none;
         outline: none;
+    } */
+
+    #BOTT_DIV_005{
+        padding: 15px;
+        border-radius: 8px;
+        width: 350px;
+        background-color: #36394F;
+        border: none;
+        outline: none;
+    }
+
+    #BOTT_DIV_005 input[type='email']{
+        border: none;
+        outline: none;
+        background-color: unset;
+    }
+
+    #BOTT_DIV_005 i{
+        padding: 3px 7px;
+        border-radius: 50%;
+        background-color: #2764FF;
+        color: white;
+        font-size: 13px;
     }
     
+    
     #BOTT_DIV_005 input[type='email']::placeholder{
-        color: #777;
+        color: #A7B1BC;
     }
     
     #BOTT_DIV_013{
         position:absolute;
-        top: 300px;
-        left: 46%;
+        top: 380px;
+        left: 46.8%;
     }
     
     #BOTT_DIV_015{
@@ -126,12 +202,27 @@
     
     #BOTT_DIV_016{
         max-width: 70%;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     #BOTT_DIV_017{
         max-width: 50%;
-        font-size: 15px;
+        font-size: 14px;
     
+    }
+
+     #BOTT_DIV_0060{
+        max-width: 200px;
+    }
+
+    #BOTT_DIV_006 li{
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 0px 12px;
+        /* width: max-content; */
+        /* margin-left: 10px; */
+        color: white;
+        background-color: #36394F;
+        border-radius: 50%;
     }
 }
