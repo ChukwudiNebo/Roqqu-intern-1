@@ -1,7 +1,6 @@
 import React from 'react'
 import bottomImage from '../roqqu-images/Icon.png'
-import path1 from '../roqqu-images/Path.png'
-import path2 from '../roqqu-images/Path (1).png'
+import path1 from '../roqqu-images/Icon (1).png'
 import LightJet from '../roqqu-images/Image.png'
 
 
@@ -12,8 +11,8 @@ const TradeOnGo = () => {
 return (
     <>
         <div id='TRA_DIV_001'>
-                <div className='d-flex flex-wrap flex-lg-nowrap'>
-                    <div>
+                <div className='d-flex flex-wrap flex-lg-nowrap '>
+                    <div id='TRA_DIV_0020'>
                         <div id='TRA_DIV_002'>
                             <h3>
                                 Trade on the go. Anywhere, anytime.
@@ -25,7 +24,7 @@ return (
                             </p>
                         </div>
                         <div className='d-flex'>
-                            <div>
+                            <div id='TRA_DIV_0062'>
                                 <div>
                                     <img src={bottomImage} alt="" />
                                 </div>
@@ -43,10 +42,7 @@ return (
                                     <div id="TRA_DIV_0061">
                                         <div>
                                             <img src={path1} alt="" />
-                                        </div>
-                                        <div>
-                                            <img src={path2} alt="" />                                  
-                                        </div>                                                                         
+                                        </div>                                                                       
                                     </div>
                                 </div>
                                 <div id='TRA_DIV_005'>
@@ -61,7 +57,7 @@ return (
                         </div>
                     </div>
                     <div>
-                        <img src={LightJet} alt="*" className='img-fluid' />
+                        <img src={LightJet} alt="*" className='img-fluid img-fluid_TRA' />
                     </div>
                 </div>
             </div>

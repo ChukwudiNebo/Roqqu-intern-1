@@ -1,6 +1,6 @@
 @media screen and (min-width: 100px){
     #DL_DIV{
-        padding-top: 170px;
+        padding-top: 140px;
         /* padding-right: 0px; */
         /* width: 30%; */
     }
@@ -21,7 +21,7 @@
 @media screen and (min-width: 992px){}
 @media screen and (min-width: 1200px){
     #DL_DIV{
-        padding-top: 80px;
+        padding-top: 50px;
         width: 30%;
     }
     #DL_DIV_001{

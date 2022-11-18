@@ -5,14 +5,15 @@
 @media screen and (min-width: 100px){
     #BOTT_DIV_001{
         padding-left: 30px;
-        padding-top: 80px;
+        padding-top: 50px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
     }
 
     #BOTT_DIV_002 img{
-        width: 200px;
+        width: 129px;
+        height: 32px;
     }
 
     #BOTT_DIV_0070 h3{
@@ -118,8 +119,8 @@
 @media screen and (min-width: 1200px){
 
     #BOTT_DIV_001{
-        margin-left: 100px;
-        padding-top: 80px;
+        margin-left: 80px;
+        padding-top: 50px;
         position: relative;
     }
 
@@ -191,8 +192,8 @@
     
     #BOTT_DIV_013{
         position:absolute;
-        top: 380px;
-        left: 46.8%;
+        top: 350px;
+        left: 46.0%;
     }
     
     #BOTT_DIV_015{
