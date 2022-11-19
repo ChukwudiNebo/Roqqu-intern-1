@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
 }
 
+.bodyBG{
+    background-color: #F4F5F9;
+}
+
 .footer {
     background-image: url('../roqqu-images/Rectangle.png');
     background-size: cover;
@@ -11,3 +15,4 @@
     background-color: rgba(0, 0, 0, 0.904);
     color: #A7B1BC;
 }
+

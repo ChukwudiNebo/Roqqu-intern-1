@@ -66,6 +66,38 @@ return (
             ))
         } */}
 
+        <ul className='list-unstyled d-flex align-items-center'>
+                            {roqquEducation.map(education =>
+                            {
+                                // console.log(rate)
+                                return (
+                                        <li key={education.id} className="d-flex flex-nowrap rateB">
+                                            <Link className="d-flex flex-nowrap justify-content-center align-items-center" id='button_LI'>
+                                                <div>
+                                                    <img src={education.image} alt="" />                                                
+                                                </div>  
+                                                <div>
+                                                    <h4>
+                                                        {education.subheading}
+                                                    </h4>
+                                                </div> 
+                                                <div>
+                                                    <div>
+                                                        <h2>
+                                                            {education.heading}
+                                                        </h2>
+                                                    </div>
+                                                    <div>
+                                                        <p>
+                                                            Volatility is a measure of how much an asset's price has fluctuated upwards or downwards over time....
+                                                        </p>
+                                                    </div>
+                                                </div>                                                 
+                                            </Link>
+                                        </li>
+                                    )
+                                })}
+                            </ul>
 
             {/* <div>
                 <div>

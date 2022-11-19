@@ -1,0 +1,146 @@
+@media screen and (min-width: 100px){
+    .rateBG{
+        background: #E5E2FB;
+        /* border: 1px solid rgba(224, 220, 241, 0.24); */
+        box-shadow: inset -1px 0px 4px rgba(0, 0, 0, 0.08);
+        line-height: 0em;
+        margin-bottom: 90px;
+        /* height: 40px; */
+        position: relative;
+        top: -20px;
+        overflow-x: hidden;
+        /* left: 15px; */
+    }
+    
+    .rateB{
+        background: #E5E2FB;
+        line-height: 0em;
+        /* height: 40px; */
+    }
+    
+    #rateBG_001{
+        border-right: 1px solid #CCCEE2;
+        position: relative;
+        left: 16px;
+    }
+    
+    .rateBG #rateBG_001 h4{
+        position: relative;
+        top: 4px;
+        right: 10px;
+        font-size: 13px;
+        width:80px;
+        /* padding-left:10px;
+        padding-right: 15px; */
+        /* border-right: 1px solid rgba(224, 220, 241, 0.24); */
+        /* padding-right:10px; */
+        /* width: 100%; */
+    }
+    
+    #button_LI{
+        position: relative;
+        top: 9px;
+        left: 15px;
+        border-top: none;
+        border-bottom: unset;
+        background-color: #E5E2FB;
+        border-left: 1px solid #CCCEE2;
+        border-right: 1px solid #CCCEE2;
+        padding-left: 20px;
+        padding-right:20px;
+    }
+    
+    #button_LI div:nth-child(2){
+        position: relative;
+        top: 3px;
+        width:120px;
+    }
+    
+    #button_LI div:nth-child(3){
+        position: relative;
+        top: 3px;
+    }
+    
+    #button_LI h4{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 8px;
+        color: #1C2127;
+        /* padding-left:10px; */
+    }
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+
+    .rateBG{
+        background: #E5E2FB;
+        /* border: 1px solid rgba(224, 220, 241, 0.24); */
+        box-shadow: inset -1px 0px 4px rgba(0, 0, 0, 0.08);
+        line-height: 0em;
+        margin-bottom: 90px;
+        /* height: 40px; */
+        position: relative;
+        top: -20px;
+        /* left: 15px; */
+    }
+    
+    .rateB{
+        background: #E5E2FB;
+        line-height: 0em;
+        /* height: 40px; */
+    }
+    
+    #rateBG_001{
+        border-right: 1px solid #CCCEE2;
+        position: relative;
+        left: 16px;
+    }
+    
+    .rateBG #rateBG_001 h4{
+        position: relative;
+        top: 4px;
+        right: 10px;
+        font-size: 13px;
+        padding-left:10px;
+        padding-right: 15px;
+        width:unset;
+        /* border-right: 1px solid rgba(224, 220, 241, 0.24); */
+        /* padding-right:10px; */
+        /* width: 100%; */
+    }
+    
+    #button_LI{
+        position: relative;
+        top: 9px;
+        left: 15px;
+        border-top: none;
+        border-bottom: unset;
+        background-color: #E5E2FB;
+        border-left: 1px solid #CCCEE2;
+        border-right: 1px solid #CCCEE2;
+        padding-left: 20px;
+        padding-right:20px;
+    }
+    
+    #button_LI div:nth-child(2){
+        position: relative;
+        top: 3px;
+        width:unset;
+    }
+    
+    #button_LI div:nth-child(3){
+        position: relative;
+        top: 3px;
+    }
+    
+    #button_LI h4{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 8px;
+        color: #1C2127;
+        padding-left:10px;
+    }
+}
+

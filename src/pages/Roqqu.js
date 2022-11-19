@@ -40,7 +40,7 @@ return (
                 </div>
             </div>
             <div>
-                <div>
+                <div className='bodyBG'>
                     <MarketRates />
                     <Benefits />
                     <WeOffer />
