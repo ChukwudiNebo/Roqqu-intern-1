@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {rates} from '../data/rates'
 
-const MarketRates = () => {
+const MarketRates = () =>
+{
 return (
     <>
         <div>
-                <div>
+                <div className='d-flex align-items-center'>
                     <div>
                         <h4>
                             Market Price
@@ -12,16 +14,37 @@ return (
                     </div>
                     <div>
                         <div>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                            <ul className='list-unstyled d-flex justify-content-center align-items-center'>
+                            {rates.map(rate =>
+                            {
+                                console.log(rate)
+                                return (
+                                        <li key={rate.id} className="d-flex">
+                                            <button className="d-flex" >
+                                                <div>
+                                                    <img src={rate.image} alt="" />                                                
+                                                </div>  
+                                                <div>
+                                                    {rate.rate}                                                
+                                                </div> 
+                                                <div>
+                                                    {rate.percent}                                                
+                                                </div>                                                 
+                                            </button>
+                                        </li>
+                                    )
+                                })}
                             </ul>
+                            {/* <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul> */}
                         </div>
                     </div>
                 </div>
