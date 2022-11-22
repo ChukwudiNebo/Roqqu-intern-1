@@ -1,4 +1,4 @@
-import Finance1 from "../roqqu-images/Group.png";
+import Finance1 from "../roqqu-images/img.png";
 import Trading from "../roqqu-images/img.png";
 
 
@@ -22,13 +22,13 @@ export const roqquEducation = [
         paragraph: "Limit buy or sell orders state the price at which securities must be bought or sold. The order will be executed only at or below...",
         read: "Read More"
     },
-    {
-        id: 3,
-        imgOverlayBadge: "Oct 1, 2022",
-        image: Trading,
-        subHeading: "TRADING",
-        heading: "What Is a Limit Order?",
-        paragraph: "Limit buy or sell orders state the price at which securities must be bought or sold. The order will be executed only at or below...",
-        read: "Read More"
-    },
+    // {
+    //     id: 3,
+    //     imgOverlayBadge: "Oct 1, 2022",
+    //     image: Trading,
+    //     subHeading: "TRADING",
+    //     heading: "What Is a Limit Order?",
+    //     paragraph: "Limit buy or sell orders state the price at which securities must be bought or sold. The order will be executed only at or below...",
+    //     read: "Read More"
+    // },
     ];

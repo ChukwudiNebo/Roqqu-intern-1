@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {roqquEducation} from '../data/education.js'
 import '../css files/roqquEducation.css'
 // import Data from '../data/EduCard.js'
 
@@ -53,162 +54,56 @@ return (
                 </div>
             </div>
                 
-        {/* cards  */}
-        
-        {/* {
-            Data.map(({ name, image, id }) => (
-                <div key={id}>
-                    <div>{name}</div>
-                    <div>
-                        <img src={image} alt="" />
-                    </div>
-                </div>
-            ))
-        } */}
-
-        <ul className='list-unstyled d-flex align-items-center'>
+        {/* cards  style={{paddingLeft: '100px'}} */}
+        <div id='Card_LINk_DIV' style={{}}>
+                <ul className='list-unstyled d-flex flex-wrap flex-lg-nowrap  align-items-center'>
                             {roqquEducation.map(education =>
                             {
                                 // console.log(rate)
                                 return (
-                                        <li key={education.id} className="d-flex flex-nowrap rateB">
-                                            <Link className="d-flex flex-nowrap justify-content-center align-items-center" id='button_LI'>
+                                        <li key={education.id} className="d-flex flex-wrap flex-lg-nowrap justify-content-center card">
+                                            <Link to="/" className="" id='Card_LINk'>
                                                 <div>
-                                                    <img src={education.image} alt="" />                                                
-                                                </div>  
-                                                <div>
-                                                    <h4>
-                                                        {education.subheading}
-                                                    </h4>
-                                                </div> 
-                                                <div>
+                                                    <div className='text-center'>
+                                                        <img src={education.image} alt="" />                                                
+                                                    </div> 
+                                                    <div id='img-overlay'>
+                                                        {education.imgOverlayBadge}
+                                                    </div>                            
+                                                </div>
+                                                <div id='Card_LINk_001'>
                                                     <div>
-                                                        <h2>
-                                                            {education.heading}
-                                                        </h2>
-                                                    </div>
+                                                        <h4>
+                                                            {education.subHeading}
+                                                        </h4>
+                                                    </div> 
                                                     <div>
-                                                        <p>
-                                                            Volatility is a measure of how much an asset's price has fluctuated upwards or downwards over time....
-                                                        </p>
-                                                    </div>
-                                                </div>                                                 
+                                                        <div>
+                                                            <h2>
+                                                                {education.heading}
+                                                            </h2>
+                                                        </div>
+                                                        <div>
+                                                            <p>
+                                                                {education.paragraph}
+                                                            </p>
+                                                        </div>
+                                                        <div id='read'>
+                                                            <Link to="/" className='d-flex'>
+                                                                <h5>
+                                                                    {education.read}
+                                                                </h5>
+                                                                <i className='fa fa-angle-double-right'></i>
+                                                            </Link>
+                                                        </div>
+                                                    </div>                                                                                                    
+                                                </div>
                                             </Link>
                                         </li>
                                     )
                                 })}
                             </ul>
-
-            {/* <div>
-                <div>
-                    <div>
-                        <div>
-                            <div>
-                                <img src="" alt="" />
-                            </div>
-                            <div>
-                                <h4>
-                                    FINANCE
-                                </h4>
-                            </div>
-                            <div>
-                                <div>
-                                    <h2>
-                                        Volatility and Crypto Volatility
-                                    </h2>
-                                </div>
-                                <div>
-                                    <p>
-                                        Volatility is a measure of how much an asset's price has fluctuated upwards or downwards over time....
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <h4>
-                                        Read More
-                                    </h4>
-                                    <i></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <div>
-                            <div>
-                                <img src="" alt="" />
-                            </div>
-                            <div>
-                                <h4>
-                                    TRADING
-                                </h4>
-                            </div>
-                            <div>
-                                <div>
-                                    <h2>
-                                        What Is a Limit Order?
-                                    </h2>
-                                </div>
-                                <div>
-                                    <p>
-                                        Limit buy or sell orders state the price at which 
-                                        securities must be bought or sold. The order will 
-                                        be executed only at or below...
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <h4>
-                                        Read More
-                                    </h4>
-                                    <i></i>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <div>
-                            <div>
-                                <img src="" alt="" />
-                            </div>
-                            <div>
-                                <h4>
-                                    TRADING
-                                </h4>
-                            </div>
-                            <div>
-                                <div>
-                                    <h2>
-                                        What Is a Limit Order?
-                                    </h2>
-                                </div>
-                                <div>
-                                    <p>
-                                        Limit buy or sell orders state the price at which 
-                                        securities must be bought or sold. The order will 
-                                        be executed only at or below...
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <h4>
-                                        Read More
-                                    </h4>
-                                    <i></i>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-    
+            </div>
     </>
 )
 }

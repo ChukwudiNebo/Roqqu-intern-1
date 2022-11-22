@@ -36,6 +36,106 @@
         background-color: black;
         border-radius: 15px;
     }
+
+    .card{
+        position: relative;
+        /* left: 100px; */
+        width: 85% !important;
+        height:480px !important;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        /* gap:40px; */
+        background: #FFFFFF;
+        box-shadow: 0px 8.55984px 16px rgba(151, 143, 175, 0.08);
+        border: 2px solid white !important;
+        border-radius: 24px !important;
+        outline: none !important;
+        margin-left: auto;
+        margin-right: auto;
+        /* overflow-x: hidden; */
+    }
+    
+    #Card_LINk_001{
+        position: relative;
+        top: 25px;
+        left: 25px;
+    }
+
+    #Card_LINk_001 h4{
+        font-size: 11px;
+        color: #2764FF !important;
+        padding: 3px 15px;
+        border-radius: 7px;
+        width: 80px;
+        background-color: rgb(223, 240, 255);
+    }
+
+    #Card_LINk_001 h5{
+        font-size: 15px;
+        color: #2764FF !important;
+        /* padding-top: 30px;
+        padding-bottom: 30px; */
+        /* padding: 5px 15px; */
+        /* width: 80px; */
+    }
+
+    #read{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .fa-angle-double-right{
+        position: relative;
+        font-size: 20px;
+        top: 0px;
+        padding-left: 10px;
+    }
+
+    #Card_LINk_001 h2{
+        margin-top: 35px;
+        margin-bottom: 0px;
+        width: 240px;
+        height: 64px;
+        font-weight: bold;
+        font-size: 24px;
+        /* line-height: 32px; */
+        color: #1C2127;
+    }
+
+    #Card_LINk_001 p{
+        width: 280px;
+        height: 96px;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 30px;
+        color: #1C2127
+    }
+
+    #Card_LINk img{
+        width: 320px !important;
+        height: 180px;
+        /* margin-top: 2px; */
+        border-radius: 16px 16px 0px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #img-overlay{
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        position: absolute;
+        top: 140px;
+        left: 70%;
+        font-size: 13px;
+        line-height: 2em;
+        font-weight: bold;
+        padding: 0px 6px;
+    }
+
+    #Card_LINk h4,h3,h2,p{
+        color: black;
+    }
 }
 @media screen and (min-width: 576px){}
 @media screen and (min-width: 768px){}
@@ -68,6 +168,107 @@
         color: white !important;
         background-color: black;
         border-radius: 15px;
+    }
+
+    .card{
+        /* position: relative;
+        left: 100px; */
+        width:450px !important;
+        height:490px !important;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: unset;
+        /* gap:40px; */
+        background: #FFFFFF;
+        box-shadow: 0px 8.55984px 16px rgba(151, 143, 175, 0.08);
+        border: 2px solid white !important;
+        border-radius: 24px !important;
+        outline: none !important;
+        /* overflow-x: hidden; */
+    }
+    
+    #Card_LINk_001{
+        position: relative;
+        left: 25px;
+    }
+
+    #Card_LINk_001 h4{
+        font-size: 11px;
+        color: #2764FF !important;
+        padding: 4px 8px;
+        border-radius: 8px;
+        width: 65px;
+        background-color: rgb(223, 240, 255);
+    }
+
+    #Card_LINk_001 h5{
+        font-size: 16px;
+        color: #2764FF !important;
+        /* padding: 5px 15px; */
+        /* width: 80px; */
+    }
+
+    #read{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .fa-angle-double-right{
+        position: relative;
+        font-size: 20px;
+        top: 1px;
+        padding-left: 10px;
+    }
+
+    #Card_LINk_001 h2{
+        margin-top: 35px;
+        margin-bottom: 0px;
+        width: 240px;
+        height: 64px;
+        font-weight: bold;
+        font-size: 24px;
+        /* line-height: 32px; */
+        color: #1C2127;
+    }
+
+    #Card_LINk_001 p{
+        width: 350px;
+        height: 96px;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1C2127
+    }
+
+    #Card_LINk img{
+        position: relative;
+        width: 430px !important;
+        height: 180px !important;
+        /* padding-top: 15px; */
+        border-radius: 16px 16px 0px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #img-overlay{
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        position: absolute;
+        top: 150px;
+        left: 75%;
+        font-size: 13px;
+        line-height: 2em;
+        font-weight: bold;
+        padding: 0px 6px;
+    }
+
+    #Card_LINk h4,h3,h2,p{
+        color: black;
+    }
+
+    #Card_LINk_DIV{
+        padding-left: 75px
     }
 }
 

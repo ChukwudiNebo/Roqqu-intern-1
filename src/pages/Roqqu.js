@@ -18,6 +18,7 @@ import Footer from './Footer'
 
 
 import '../css files/roqqu.css'
+import RoqquiansTestimony from '../Components/RoqquiansTestimony'
 
 
 
@@ -54,6 +55,9 @@ return (
                 </div>
             </div>
             <div>
+                <div>
+                    <RoqquiansTestimony />
+                </div>
                 <div>
                     <TradeOnGo />
                 </div>
