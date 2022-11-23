@@ -18,60 +18,22 @@ return (
                             </p>
                         </div>
                     </div>
+                    
                     <div>
-                        <div>
+                    <div>
+                        
                             <div>
                                 <div>
-                                    <img src="" alt="" />
+                                    <img src={testimony.image} alt="" />
                                 </div>
                                 <div>
                                     <p>
-                                        Having 15 years of experience in design 
-                                        field. Design is my passion and sharing 
-                                        my knowledge is my love.
+                                        {testimony.paragraph}
                                     </p>
                                 </div>
                                 <div>
                                     <h4>
-                                        {}
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <img src="" alt="" />
-                                </div>
-                                <div>
-                                    <p>
-                                        Having 15 years of experience in design 
-                                        field. Design is my passion and sharing 
-                                        my knowledge is my love.
-                                    </p>
-                                </div>
-                                <div>
-                                    <h4>
-                                        Ann Franks
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <img src="" alt="" />
-                                </div>
-                                <div>
-                                    <p>
-                                        Having 15 years of experience in design 
-                                        field. Design is my passion and sharing 
-                                        my knowledge is my love.
-                                    </p>
-                                </div>
-                                <div>
-                                    <h4>
-                                        Ann Franks
+                                        {testimony.author}
                                     </h4>
                                 </div>
                             </div>
