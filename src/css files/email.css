@@ -18,9 +18,9 @@
 @media screen and (min-width: 1200px){
     #DIV_007{
     margin-top: 50px;
-    background-color: #777;
-    padding: 6px;
-    max-width: 26%;
+    background-color: white;
+    padding: 5px;
+    max-width: 28%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -36,10 +36,11 @@
 }
 
 #EMAIL_DIV input[type='email']::placeholder{
-    color: white;
+    color: rgba(119, 119, 119, 0.678);
+    padding-left: 10px;
 }
 
 #email {
-    background-color: #777;
+    background-color: white;
 }
 }

@@ -29,7 +29,7 @@ return (
                         <div id='DIV_006'>
                             <p id='P_001'>
                                 Buying & Selling cryptocurrency is made safe and easy with Roqqu.
-                                    <br  className='d-lg-none d-xl-inline-block d-none'/>
+                                    <br  className='d-xl-inline-block'/>
                                 Start your Roqqu journey now! 
                             </p>
                         </div>

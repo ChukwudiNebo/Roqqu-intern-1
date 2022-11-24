@@ -9,12 +9,12 @@ const SideNavBarFaq = (path) =>
 {
     
     function CustomLink({ children, to,path}){
-        let match = useRouteMatch(to !== "" ? `/${path}/` + to : '/home');
+        let match = useRouteMatch(to !== "" ? `/${path}/` + to : '/');
         
         // console.log(children)
         return (
-            <Link to={`faqs/${to}/`} className={`${match ? "text-primary" : ""} fix`}>
-            {/* // <Link to={to}> */}
+            // <Link to={`faqs/${to}/`} className={`${match ? "text-primary" : ""} fix`}>
+            <Link to={to} className={`${match ? "text-primary" : ""} fix`}>
                 {children}
             </Link>
         )
@@ -31,7 +31,7 @@ const SideNavBarFaq = (path) =>
         {
             name: "Latest Releases",
             id: "latest-releases",
-            to:  "/latest-releases"
+            to:  "latest-releases"
         },
         {
             name: "Trading(17)",

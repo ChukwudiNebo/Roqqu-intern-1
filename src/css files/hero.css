@@ -7,7 +7,7 @@
 #DIV_003{
     background-color: #CED7FA;
     border-radius: 25px;
-    max-width: 63%;
+    max-width: 60%;
     margin-left: 30px;
     padding-right: 20px;
 }
@@ -58,6 +58,7 @@
 #H2_001{
     font-size: 35px;
     font-weight: bold;
+    
 }
 
 #P_001{
@@ -78,7 +79,7 @@
 #DIV_003{
     background-color: #CED7FA;
     border-radius: 25px;
-    max-width: 26%;
+    max-width: 25.8%;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +136,8 @@
 
 #P_001{
     color: #777;
-    line-height: 1.9em;
+    line-height: 1.7em;
+    font-size: 18px;
 }
 }
 

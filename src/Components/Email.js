@@ -14,7 +14,7 @@ return (
         <div>
                 <div className='d-flex justify-content-between align-items-center' id='DIV_007'>
                     <div className='d-lg-none d-xl-inline-block d-xl-flex d-none' id='EMAIL_DIV'>
-                        <input type="email" name="email" id="email" placeholder='Enter email address'/>
+                        <input type="email" name="email" id="email" placeholder='Your email address'/>
                     </div>
                     <div>
                         <img src={getStarted} alt="*" id='IMG_001'/>

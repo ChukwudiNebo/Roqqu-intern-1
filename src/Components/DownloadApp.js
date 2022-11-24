@@ -10,7 +10,7 @@ return (
         <div id='DA_DIV_001'>
                 <div className='text-center d-lg-none d-xl-block d-xl-flex d-none' id='DA_DIV_002'>
                     <h5>
-                        Press <img src={D} alt="" /> Download our app! Dive into the Roqqu world!
+                        Press <img src={D} alt="*" className='d-image' /> Download our app! Dive into the Roqqu world!
                     </h5>
                 </div>
                 <div className='text-lg-center'>

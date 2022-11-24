@@ -30,4 +30,8 @@
         position: relative;
         top: 2px;
     }
+
+    .d-image{
+        background-color: white;
+    }
 }

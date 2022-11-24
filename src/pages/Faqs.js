@@ -23,7 +23,7 @@ const Faqs = () =>
               <SideNavBarFaq />
               <Switch>
                 <Route path={`${path}`} exact component={LatestRelease}/>        
-                <Route path={`${path}/categories`} exact component={Categories}/>
+                <Route path={`${path}/:categories`} exact component={Categories}/>
               </Switch>
 
           </div>
