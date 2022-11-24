@@ -37,16 +37,16 @@ return (
                                 <div id='BOTT_DIV_0060'>
                                     <ul className='d-flex list-unstyled justify-content-between' id='BOTT_DIV_006'>
                                         <li>
-                                            <i class="fab fa-facebook"></i>
+                                            <i className="fab fa-facebook"></i>
                                         </li>
                                         <li>
-                                            <i class="fab fa-twitter"></i>
+                                            <i className="fab fa-twitter"></i>
                                         </li>
                                         <li>
-                                            <i class="fab fa-linkedin"></i>
+                                            <i className="fab fa-linkedin"></i>
                                         </li>
                                         <li>
-                                            <i class="fab fa-instagram"></i>
+                                            <i className="fab fa-instagram"></i>
                                         </li>
                                     </ul>
                                 </div>
@@ -119,7 +119,7 @@ return (
                                 <div id='BOTT_DIV_017'>
                                     <p>
                                         Roqqu is a fully regulated digital asset operator licensed in Lithuania by the Central Bank of Lithuania under Roqqu UAB Technologies with license number 305963619 operated legally across 28 countries 
-                                        across Europe. Information about Roqqu s Crypto license can be found <Link>here</Link>. 
+                                        across Europe. Information about Roqqu s Crypto license can be found <Link to="/">here</Link>. 
                                     </p>
                                 </div>
                             </div>        

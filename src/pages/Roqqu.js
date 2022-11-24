@@ -52,12 +52,12 @@ return (
                     <RoqquSavings />
                     <RoqquHub />
                     <RoqquEducation />
+                    <div>
+                        <RoqquiansTestimony />
+                    </div>
                 </div>
             </div>
             <div>
-                <div>
-                    <RoqquiansTestimony />
-                </div>
                 <div>
                     <TradeOnGo />
                 </div>

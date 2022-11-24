@@ -1,18 +1,19 @@
 import React from 'react'
+import {roqquEducation} from '../data/testimony.js'
 import '../css files/roqquiantestimony.css'
 
 const RoqquiansTestimony = () => {
 return (
     <>
-         <div>
+         <div id='RTES_DIV'>
                 <div>
-                    <div>
+                    <div className='d-flex flex-wrap align-items-center' id='RTES_DIV_001'>
                         <div>
-                            <h5>
+                            <h2>
                                 Let’s hear from other Roqquians
-                            </h5>
+                            </h2>
                         </div>
-                        <div>
+                        <div id='RTES_DIV_P'>
                             <p>
                                 People who use our app think we are awesome. Here's what they are saying!​
                             </p>
@@ -20,23 +21,30 @@ return (
                     </div>
                     
                     <div>
-                    <div>
-                        
-                            <div>
-                                <div>
-                                    <img src={testimony.image} alt="" />
+                    <div className="d-flex flex-wrap flex-lg-nowrap" id='RTES_CARD_001'>
+                        {roqquEducation.map(testimony =>
+                        {
+                            return (
+
+                                <div id='RTES_CARD_002'>
+                                    <div id='RTES_CARD_IMG'>
+                                        <img src={testimony.image} alt="" />
+                                    </div>
+                                    <div className='card' id='RTES_CARD'>
+                                        <div>
+                                            <p>
+                                                {testimony.paragraph}
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h5>
+                                                -{testimony.author}
+                                            </h5>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p>
-                                        {testimony.paragraph}
-                                    </p>
-                                </div>
-                                <div>
-                                    <h4>
-                                        {testimony.author}
-                                    </h4>
-                                </div>
-                            </div>
+                            )
+                        })}
                         </div>
                     </div>
                 </div>

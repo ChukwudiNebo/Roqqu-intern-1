@@ -1,0 +1,13 @@
+#DFAQ_DIV_001{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 35px;
+    margin-left: 0px;
+    width: 85% !important;
+    height: 70px !important;
+    border-radius: 6px !important;
+}
+
+#DFAQ_DIV_001 h5{
+    font-weight: bold;
+}

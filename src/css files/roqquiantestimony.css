@@ -1,4 +1,175 @@
+@media screen and (min-width: 100px){
+    #RTES_DIV{
+    background-color: #1C2127;
+    /* height: 90vh; */
+    color: white;
+    padding-left: 25px;
+}
 
-{
-    background-color: #1C2127
+#RTES_DIV_001{
+    /* margin-bottom: 100px; */
+}
+
+#RTES_DIV h2{
+padding-top: 100px;
+font-size: 35px;   
+font-weight: bold;
+width: 300px;
+color: white;
+}
+
+#RTES_DIV_P p{
+    position: relative;
+    top: 20px;
+    /* left: 190px; */
+    font-size: 17px;
+    color: white !important;
+    width: 320px;
+    line-height: 1.8em;
+}
+
+#RTES_CARD{
+    position: relative;
+    top: 20px;
+    border-radius: 10px !important;
+    width: 350px !important;
+    height: 215px !important;
+}
+
+#RTES_CARD p{
+    font-size: 15px;
+    padding: 0px 20px;
+    padding-top: 60px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767) !important;
+}
+
+#RTES_CARD h5{
+    position: relative;
+    top: 15px;
+    color: black !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#RTES_CARD_001{
+    background-image: url('../roqqu-images/Map.png');
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+    position: relative;
+    top: -30px;
+}
+
+#RTES_CARD_002{
+    position: relative;
+    top: 60px;
+    margin-bottom: 45px;
+}
+
+#RTES_CARD_IMG{
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    /* height: 10px !important; */
+    /* left: 190px; */
+    z-index: 100;
+}
+
+#RTES_CARD_IMG img {
+    height: 65px !important; 
+}
+}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 1200px){
+
+
+    #RTES_DIV{
+        background-color: #1C2127;
+        height: 105vh;
+        color: white;
+        padding-left: 95px;
+    }
+    
+    #RTES_DIV_001{
+        /* margin-bottom: 100px; */
+    }
+    
+    #RTES_DIV h2{
+    padding-top: 100px;
+    font-size: 45px;   
+    font-weight: bold;
+    width: 500px;
+    color: white;
+    }
+    
+    #RTES_DIV_P p{
+        position: relative;
+        top: 80px;
+        left: 190px;
+        font-size: 16px;
+        color: white !important;
+        width: 420px;
+    }
+    
+    #RTES_CARD{
+        position: relative;
+        top: 20px;
+        border-radius: 10px !important;
+        width: 350px !important;
+        height: 215px !important;
+    }
+    
+    #RTES_CARD p{
+        font-size: 15px;
+        padding: 0px 20px;
+        padding-top: 60px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.767) !important;
+    }
+    
+    #RTES_CARD h5{
+        position: relative;
+        top: 15px;
+        color: black !important;
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    
+    #RTES_CARD_001{
+        background-image: url('../roqqu-images/Map.png');
+        background-repeat: no-repeat;
+        background-size: 95%;
+        background-position: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 200px;
+        position: relative;
+        top: -30px;
+    }
+    
+    #RTES_CARD_002{
+        position: relative;
+        top: 60px;
+    }
+    
+    #RTES_CARD_IMG{
+        position: absolute;
+        top: 19px;
+        padding-left: 50px;
+        /* height: 10px !important; */
+        /* left: 190px; */
+        z-index: 100;
+    }
+    
+    #RTES_CARD_IMG img {
+        height: 65px !important; 
+    }
 }
