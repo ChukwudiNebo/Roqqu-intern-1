@@ -89,6 +89,7 @@
     .rateB{
         background: #E5E2FB;
         line-height: 0em;
+        box-shadow: inset -1px 0px 4px rgba(0, 0, 0, 0.08)
         /* height: 40px; */
     }
     

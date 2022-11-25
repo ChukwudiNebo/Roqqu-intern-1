@@ -17,7 +17,7 @@ return (
     <>
         {/* benefits and assets  */}
             <div id='BENE_DIV_001'>
-                <div className='d-flex flex-wrap justify-content-between align-items-center'>
+                <div className='d-flex flex-wrap justify-content-between align-items-center' id='BENE_DIV'>
                     <div className='d-flex justify-content-center align-items-center' id='BENE_DIV_00100'>
                         <div className='d-none d-lg-inline-block'>
                             <img src={User} alt="*" />                            

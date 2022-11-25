@@ -65,7 +65,7 @@
     #WE_DIV_002{
         background-color: #E3E9F9;
         max-width: fit-content;
-        border-radius: 8px;
+        border-radius: 15px;
         margin-left: auto;
         margin-right: auto;
         /* text-align: center; */
@@ -73,7 +73,7 @@
     
     #WE_DIV_002 h4{
         color: #2764FF;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
     }
     
