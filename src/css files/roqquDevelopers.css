@@ -10,7 +10,7 @@
 @media screen and (min-width: 100px){
     #DEV_DIV_001{
         background-color: white;
-        box-shadow: 0px 0px 15px #777;
+        box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
         border-radius: 17px;
         margin-top: 100px;
         width: 84%;
@@ -93,6 +93,7 @@
     .img-fluid_DEV{
         width: 318px;
         height: 240px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (min-width: 576px){}
@@ -102,7 +103,10 @@
 
     #DEV_DIV_001{
         background-color: white;
-        box-shadow: 0px 0px 15px #777;
+        box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)), url('../roqqu-images/dev.png');
+        background-position: center center;
+        background-size: cover;
         border-radius: 17px;
         margin-top: 100px;
         max-width: 82%;
@@ -140,6 +144,7 @@
     .img-fluid_DEV{
     width: 520px;
     height: 392px;
+    margin-bottom: 0px;
     }
     
     #DEV_UL_001{

@@ -25,7 +25,7 @@ return (
                             <p>
                                 Never thought you could process crypto transactions 
                                 with lightning speed right? Well, welcome to Roqqu! It 
-                                doesn t stop at that, <b>you;</b> 
+                                doesn't stop at that, <b>you;</b> 
                             </p>
                         </div>
 
