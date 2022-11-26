@@ -11,6 +11,9 @@
     #DEV_DIV_001{
         background-color: white;
         box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)), url('../roqqu-images/mobileBG.png');
+        background-position: center 100px;
+        background-size: cover; 
         border-radius: 17px;
         margin-top: 100px;
         width: 84%;

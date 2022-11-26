@@ -119,7 +119,9 @@ return (
                                 <div id='BOTT_DIV_017'>
                                     <p>
                                         Roqqu is a fully regulated digital asset operator licensed in Lithuania by the Central Bank of Lithuania under Roqqu UAB Technologies with license number 305963619 operated legally across 28 countries 
-                                        across Europe. Information about Roqqu s Crypto license can be found <Link to="/">here</Link>. 
+                                        across Europe. 
+                                            <br />
+                                        Information about Roqqu s Crypto license can be found <Link to="/">here</Link>. 
                                     </p>
                                 </div>
                             </div>        

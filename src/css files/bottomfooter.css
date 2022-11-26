@@ -90,12 +90,21 @@
     #BOTT_DIV_016{
         max-width: 100%;
         font-size: 14px;
+        color: #A7B1BC !important;
+    }
+
+    #BOTT_DIV_016 p{
+        color: #A7B1BC !important;
     }
     
     #BOTT_DIV_017{
         max-width: 100%;
         font-size: 14px;
-    
+        color: #A7B1BC !important;
+    }
+
+    #BOTT_DIV_017 p{
+        color: #A7B1BC !important;
     }
 
     #BOTT_DIV_0060{
@@ -204,12 +213,13 @@
     #BOTT_DIV_016{
         max-width: 70%;
         font-size: 14px;
+        color: #A7B1BC !important;
     }
     
     #BOTT_DIV_017{
         max-width: 50%;
         font-size: 14px;
-    
+        color: #A7B1BC !important;
     }
 
      #BOTT_DIV_0060{
