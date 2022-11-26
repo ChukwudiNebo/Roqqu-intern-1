@@ -8,12 +8,22 @@
         padding-left: 20px;
         padding-right: 15px;
     }
-    #DL_DIV_001 img{
+
+    #DL_DIV_001_IMG_01{
         background-color: white;
         padding: 12px 27px;
         margin: 12px;
         border-radius: 7px;
-        width: 150px;
+        width: 140px;
+        height: 48px
+    }
+
+    #DL_DIV_001_IMG{
+        background-color: white;
+        padding: 12px 27px;
+        margin: 12px;
+        border-radius: 7px;
+        width: 140px;
     }
 }
 @media screen and (min-width: 576px){}
@@ -27,10 +37,12 @@
     #DL_DIV_001{
         padding-left: 95px;
     }
-    #DL_DIV_001 img{
+    #DL_DIV_001_IMG_01{
         background-color: white;
-        padding: 12px 25px;
+        padding: 12px 27px;
         margin: 12px;
-        border-radius: 10px;
+        border-radius: 7px;
+        width: 140px;
+        height: 50px
     }
 }

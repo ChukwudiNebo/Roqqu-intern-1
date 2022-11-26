@@ -10,10 +10,10 @@ return (
         <div id='DL_DIV'>
             <div className='d-flex justify-content-between' id='DL_DIV_001'>
                 <div>
-                    <img src={ApplePlay} alt="" />
+                    <img src={ApplePlay} alt="" id='DL_DIV_001_IMG_01'/>
                 </div>
                 <div>
-                    <img src={GooglePlay} alt="" />
+                    <img src={GooglePlay} alt="" id='DL_DIV_001_IMG'/>
                 </div>
             </div>
         </div>
