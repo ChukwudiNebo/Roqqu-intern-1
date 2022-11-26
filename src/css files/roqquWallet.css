@@ -16,7 +16,7 @@
     box-shadow: 0px 1.0566px 42.57px rgba(28, 33, 39, 0.08);
     border-radius: 17px;
     margin-top: 100px;
-    width: 84%;
+    width: 86%;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -67,12 +67,14 @@
     margin-left: 18px;
     color: #2764FF;
     font-size: 16px;
+    padding-top: 5px
 }
 
 #WALL_DIV_006 i{
     color: #2764FF;
     font-size: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-top: 9px
 }
 
 .img-fluid_WAL{

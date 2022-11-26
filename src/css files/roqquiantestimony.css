@@ -32,7 +32,7 @@ color: white;
     position: relative;
     top: 20px;
     border-radius: 10px !important;
-    width: 350px !important;
+    width: 325px !important;
     height: 215px !important;
 }
 
@@ -69,6 +69,7 @@ color: white;
     position: relative;
     top: 60px;
     margin-bottom: 45px;
+    /* width: 70% !important; */
 }
 
 #RTES_CARD_IMG{
@@ -158,6 +159,7 @@ color: white;
     #RTES_CARD_002{
         position: relative;
         top: 60px;
+        max-width: unset;
     }
     
     #RTES_CARD_IMG{
